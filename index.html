@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A birthday wish for you</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+
+      <!-- WELCOME -->
+      <section class="screen hero active" id="welcome">
+        <div class="sparkles" aria-hidden="true"></div>
+        <p class="eyebrow">A little birthday universe for</p>
+        <h1>my favorite<br /><em>Rofyyy.</em></h1>
+        <p class="intro">I gathered a few tiny things I want you to remember today.</p>
+        <button class="primary-button" data-go="photos">Open your gift <span>♡</span></button>
+      </section>
+
+      <!-- PHOTOS -->
+      <section class="screen photos-screen" id="photos">
+        <button class="back" data-go="welcome">← Back</button>
+        <p class="eyebrow">A few memories</p>
+        <h2> little<br /><em>Rofy.</em></h2>
+        <p class="section-copy">There’s something incredibly beautiful about seeing your childhood pictures. It’s like looking at the first pages of a story I wish I could’ve read from the beginning.
+        <div class="photo-grid"> 
+          <figure class="photo-card">
+            <img src="https://ik.imagekit.io/bqpjqxdxd/Personallll/WhatsApp%20Image%202026-09-21%20at%206.25.28%20PM%20(1).jpeg?updatedAt=1790038196667" alt="Memory 1" />
+          </figure>
+          <figure class="photo-card">
+            <img src="https://ik.imagekit.io/bqpjqxdxd/Personallll/WhatsApp%20Image%202026-09-21%20at%206.25.28%20PM.jpeg?updatedAt=1790038196194" alt="Memory 2" />
+          </figure>
+          <figure class="photo-card">
+            <img src="https://ik.imagekit.io/bqpjqxdxd/Personallll/WhatsApp%20Image%202026-09-21%20at%206.25.28%20PM%20(3).jpeg?updatedAt=1790038196578" alt="Memory 3" />
+          </figure>
+          <figure class="photo-card">
+            <img src="https://ik.imagekit.io/bqpjqxdxd/Personallll/4.png" alt="Memory 4" />
+          </figure>
+        </div>
+
+        <button class="text-button" data-go="music">Now, a few songs →</button>
+      </section>
+
+      <!-- MUSIC -->
+      <section class="screen music-screen" id="music">
+        <button class="back" data-go="photos">← Back</button>
+        <p class="eyebrow">First, some songs</p>
+        <h2>These ones feel<br />like <em>you.</em></h2>
+        <p class="section-copy">Pick whichever one you feel like listening to.</p>
+
+        <div class="songs">
+          <div class="song">
+            <p>I'd Risk it all for you...
+            </p>
+            <iframe src="https://open.spotify.com/embed/track/5y2ijHECwFYWqcAHKTZgzD?utm_source=generator"
+              title="Song One" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+
+          <div class="song">
+            <p>The Beginning of everything</p>
+            <iframe src="https://open.spotify.com/embed/track/6tMdpUXfT70TD6Eh3XfB1p?utm_source=generator"
+              title="Song Two" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+
+          <div class="song">
+            <p>To my beautiful Kind gorgeous woman "play it from 00:34" </p>
+            <iframe src="https://open.spotify.com/embed/track/38tfi9dtBQQ5Wyt7EL0G3z?utm_source=generator"
+              title="Song Three" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+
+          <div class="song">
+            <p>Everyone thinks im crazy, crazy for you.. </p>
+            <iframe src="https://open.spotify.com/embed/track/1zFbBrZmJr1Z49HYe84dBg?utm_source=generator"
+              title="Song Four" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <button class="text-button" data-go="notes">There are some notes for you →</button>
+      </section>
+
+      <!-- NOTES -->
+      <section class="screen notes-screen" id="notes">
+        <button class="back" data-go="music">← Back</button>
+        <p class="eyebrow">Open every little note</p>
+        <h2>Things I hope<br />you <em>never forget.</em></h2>
+
+        <div class="notes-grid">
+          <button class="note coral">
+            <span class="note-front">Tap me<br />♡</span>
+            <span class="note-message">You make ordinary days feel like something worthy.</span>
+          </button>
+          <button class="note lilac">
+            <span class="note-front">A secret<br />✦</span>
+            <span class="note-message">My favorite version of every plan is the one where you are there.</span>
+          </button>
+          <button class="note butter">
+            <span class="note-front">For you<br />☼</span>
+            <span class="note-message">I hope this year gives you the same kindness you give to everyone else.</span>
+          </button>
+          <button class="note blue">
+            <span class="note-front">One more<br />☁</span>
+            <span class="note-message">You are loved more deeply than these small words can say.</span>
+          </button>
+        </div>
+
+        <button class="text-button" data-go="wish">Make a birthday wish →</button>
+      </section>
+
+      <!-- CAKE -->
+      <section class="screen wish-screen" id="wish">
+        <button class="back" data-go="notes">← Back</button>
+        <p class="eyebrow">One last thing</p>
+        <h2>Close your eyes<br />and make a <em>wish.</em></h2>
+        <p class="section-copy">Tap the candles to light them, then make your wish.</p>
+
+        <button class="cake" id="cake" aria-label="Light the birthday candles">
+          <span class="flame flame-one"></span><span class="flame flame-two"></span><span class="flame flame-three"></span>
+          <span class="candle candle-one"></span><span class="candle candle-two"></span><span class="candle candle-three"></span>
+          <span class="frosting"></span><span class="cake-body"></span><span class="plate"></span>
+        </button>
+
+        <p class="cake-prompt" id="cakePrompt">Tap the cake ✨</p>
+
+        <div class="final-message" id="finalMessage">
+          <p>Happy birthday, my love.</p>
+          <span>May this next year bring you soft mornings, loud laughter, every dream you deserve—and me cheering for you through all of it. ♡</span>
+        </div>
+
+        <button class="text-button wish-next" data-go="memories">There is one more little surprise →</button>
+      </section>
+
+
+      <!-- PHOTO SLIDES -->
+      <section class="screen memories-screen" id="memories">
+        <button class="back" data-go="wish">← Back</button>
+
+        <div class="memories-content">
+          <p class="eyebrow">Just us</p>
+
+          <div class="quote-area" aria-live="polite">
+            <span class="quote-mark">“</span>
+            <p class="slide-quote" id="slideQuote">
+              Somehow, my favorite memories always have you in them.
+            </p>
+          </div>
+
+          <div class="memory-slider" id="memorySlider">
+            <div class="memory-track" id="memoryTrack">
+
+              <article class="memory-slide active">
+                <div class="memory-photo-wrap">
+                  <img src="https://ik.imagekit.io/bqpjqxdxd/Personallll/1.png" alt="A memory of us" />
+                  <div class="photo-shine"></div>
+                </div>
+                <p class="photo-caption">The beginning of another little memory ♡</p>
+              </article>
+
+              <article class="memory-slide">
+                <div class="memory-photo-wrap">
+                  <img src="https://ik.imagekit.io/bqpjqxdxd/Personallll/2.png" alt="A memory of us together" />
+                  <div class="photo-shine"></div>
+                </div>
+                <p class="photo-caption">You + me = my favorite place to be.</p>
+              </article>
+
+              <article class="memory-slide">
+                <div class="memory-photo-wrap">
+                  <img src="https://ik.imagekit.io/bqpjqxdxd/Personallll/3.png" alt="Our favorite memory together" />
+                  <div class="photo-shine"></div>
+                </div>
+                <p class="photo-caption">And this is one I want to keep forever. ♡</p>
+              </article>
+
+            </div>
+
+            <button class="slider-arrow slider-prev" id="prevMemory" aria-label="Previous photo">‹</button>
+            <button class="slider-arrow slider-next" id="nextMemory" aria-label="Next photo">›</button>
+          </div>
+
+          <div class="slider-dots" id="sliderDots" aria-label="Photo navigation">
+            <button class="slider-dot active" data-slide="0" aria-label="Photo 1"></button>
+            <button class="slider-dot" data-slide="1" aria-label="Photo 2"></button>
+            <button class="slider-dot" data-slide="2" aria-label="Photo 3"></button>
+          </div>
+
+          <p class="swipe-hint">Swipe left or right ♡</p>
+
+          <button class="text-button" data-go="letter">Now read this →</button>
+        </div>
+      </section>
+
+      <!-- LONG LETTER -->
+      <section class="screen letter-screen" id="letter">
+        <div class="sakura-layer" id="sakura" aria-hidden="true"></div>
+        <div class="flower flower-a">✿</div>
+        <div class="flower flower-b">❀</div>
+        <div class="flower flower-c">✿</div>
+
+        <button class="back" data-go="wish">← Back</button>
+
+<div class="background-song">
+            <p>Play this while you read ♡</p>
+            <iframe
+              src="https://open.spotify.com/embed/track/5tCpe9dtlGaIFrdX2Cnb0f?utm_source=generator"
+              title="Birthday background song"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="letter-content">
+          <p class="eyebrow">For you, always</p>
+          <h2>A little<br /><em>letter.</em></h2>
+
+          <div class="letter-card">
+            <p>
+              My love,
+            </p>
+
+            <p>
+              I don't really know how to put everything I feel into a few paragraphs,
+              but I wanted to try anyway. Today is your birthday, and more than anything,
+              I want you to know how grateful I am that you are part of my life.
+            </p>
+
+            <p>
+              There are so many little things about you that I love. You were like a midnight garden, your hair falls like midnight, long and dark, as if the night itself decided to stay a little longer.
+And your eyes... those green eyes hold something the world forgot how to name.
+Not simply green, but the color of forests after rain,
+of leaves catching the first light of morning,
+of a quiet place where you could lose your way
+and somehow never wish to be found.
+            </p>
+<p>
+The way you smile, the way you talk about the things you care about, the little moments that probably seem ordinary to you but somehow stay with me.
+There is something almost unfair about her beauty.
+Not because she tries to be beautiful,
+but because every little feature seems to have found its perfect place,
+as though someone wrote her into existence with extraordinary care.
+            </p>
+  
+            <p>
+You are so beautiful,
+<p>but somehow, “beautiful” has never been enough.</p>
+
+Maybe that is why I could spend a lifetime searching for the right words,
+and still come back to the simplest truth:
+
+If the stars were given a face,
+the night a pair of eyes,
+and the moon a reason to be jealous,
+I think they would all look a little like her.
+
+And if someday someone asks me what beauty looked like in my lifetime,
+I won't give them a definition.
+
+I'll just tell them your name.
+
+            </p>
+            <p>
+              I hope you know that you never have to be perfect for me. You don't have
+              to have everything figured out. I just want you to keep being yourself,
+              keep chasing the things that make you happy, and keep believing that
+              beautiful things are waiting for you.
+            </p>
+
+            <p>
+              I hope this new year of your life brings you memories that you will want
+              to keep forever. I hope there are days when you laugh until your stomach
+              hurts, quiet mornings that make you feel peaceful, and moments where you
+              look around and realize just how loved you are.
+            </p>
+
+            <p>
+              And whenever life gets difficult, I hope you remember that you don't have
+              to carry everything alone. I will always be cheering for you, believing
+              in you, and wishing the best for you.
+            </p>
+
+            <p>
+              Thank you for being you. Thank you for every memory, every conversation,
+              every laugh, and every little moment that became special simply because
+              you were there.
+            </p>
+
+            <p>
+              Happy birthday. I hope this is only the beginning of another beautiful
+              chapter for you.
+            </p>
+
+            <p class="signature">
+              With all my love, Dodo <br />
+              ♡
+            </p>
+          </div>
+
+          
+      </section>
+
+    </main>
+
+    <div class="confetti" id="confetti" aria-hidden="true"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
